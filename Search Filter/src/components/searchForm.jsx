@@ -37,8 +37,10 @@ function SearchForm() {
   return (
     <>
       <div className="search-Form d-flex m-auto mt-3 mb-3">
-        <InputImplement onChangeInput={onChange} />
-        <ButtonAction title={"Search"} action={SearchForm} />
+        <form>
+          <InputImplement onChangeInput={onChange} />
+          <ButtonAction type="button" title={"Search"} action={SearchForm} />
+        </form>
       </div>
       <div className="table-padding">
         <table>
