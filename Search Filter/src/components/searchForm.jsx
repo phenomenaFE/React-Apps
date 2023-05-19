@@ -36,8 +36,8 @@ function SearchForm() {
   };
   return (
     <>
-      <div className="search-Form d-flex m-auto mt-3 mb-3">
-        <form>
+      <div className="search-Form m-auto mt-3 mb-3">
+        <form className="w-100 d-flex ">
           <InputImplement onChangeInput={onChange} />
           <ButtonAction type="button" title={"Search"} action={SearchForm} />
         </form>
