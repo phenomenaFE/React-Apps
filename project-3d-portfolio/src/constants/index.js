@@ -66,6 +66,11 @@ const technologies = [
         icon: css,
     },
     {
+        name: "Sass",
+        icon: sass
+       
+   },
+    {
         name: "JavaScript",
         icon: javascript,
     },
@@ -86,11 +91,7 @@ const technologies = [
         icon: angular
        
    },
-    {
-         name: "Sass",
-         icon: sass
-        
-    },
+   
     {
         name: "Tailwind CSS",
         icon: tailwind,
