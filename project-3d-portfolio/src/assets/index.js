@@ -6,7 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import perfectpresention from './perfectpresenttion.svg';
+import webkeyz from './unnamed.jpg';
+import designagency from './Designslogo.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,6 +31,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import sass from './tech/sass.png'
+import angular from './tech/angular.png'
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  perfectpresention,
+  webkeyz,
+  designagency,
+  sass,
+  angular
 };
