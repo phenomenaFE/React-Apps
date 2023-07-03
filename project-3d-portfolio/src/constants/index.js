@@ -157,42 +157,35 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Hazem is one of the most hard-working individuals I've met at 2P, He is enthusiastic team member and very helpful teammate",
+        name: "Salah Atef Seleem",
+        designation: "Senior QC Engineer at ",
+        company: "2P Perfect Presentation",
+        image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "There is no better colleague than Hazem. he is one of the most dedicated professionals I’ve worked with in 2p Perfect presentation Campany . ",
+        name: "Aml Taha",
+        designation: "Frontend Developer",
+        company: "Emirates Auction",
+        image: "https://randomuser.me/api/portraits/women/5.jpg",
     },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+  
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Waqfy Platform",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A safe platform for crowdfunding under the supervision of the General Authority of Endowments.",
         tags: [
             {
-                name: "react",
+                name: "angular",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "sql",
                 color: "green-text-gradient",
             },
             {
@@ -201,15 +194,15 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://waqfy.sa/",
     },
     {
-        name: "Job IT",
+        name: "Perfect Presentation",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Company thrive to provide our clients with innovative local products to meet the demands of the latest technology trends.",
         tags: [
             {
-                name: "react",
+                name: "js",
                 color: "blue-text-gradient",
             },
             {
@@ -222,19 +215,19 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://2p.com.sa/#/",
     },
     {
-        name: "Trip Guide",
+        name: "Ameen Care",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A Platform specialized in providing home physiotherapy services to help reduce pain and improve physical health.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "React",
                 color: "green-text-gradient",
             },
             {
@@ -243,7 +236,7 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://www.ameen.care/",
     },
 ];
 
