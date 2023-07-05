@@ -35,36 +35,29 @@ const Ecommerce = () => {
   const { currentColor, currentMode } = useStateContext();
 
   return (
-    <div className="mt-24">
-      <div className="flex flex-wrap lg:flex-nowrap justify-center ">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
-          <div className="flex justify-between items-center">
-            <div>
-              <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$63,448.78</p>
-            </div>
-            <button
-              type="button"
-              style={{ backgroundColor: currentColor }}
-              className="text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full  p-4"
-            >
-              <BsCurrencyDollar />
-            </button>
-          </div>
-          <div className="mt-6">
-            <Button
-              color="white"
-              bgColor={currentColor}
-              text="Download"
-              borderRadius="10px"
-            />
+    <div className="m-12 mt-24">
+      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full   p-8 pt-9 m-0 md:m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
+        <div className="flex justify-between items-center">
+          <div>
+            <p className="font-bold text-gray-400">Earnings</p>
+            <p className="text-2xl">$63,448.78</p>
           </div>
         </div>
-        <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
+        <div className="mt-6">
+          <Button
+            color="white"
+            bgColor={currentColor}
+            text="Download"
+            borderRadius="10px"
+          />
+        </div>
+      </div>
+      <div className="w-full">
+        <div className="grid md:grid-cols-4 gap-10 lg:gap-20 grid-cols-1">
           {earningData.map((item) => (
             <div
               key={item.title}
-              className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl "
+              className="bg-white m-2  h-44 dark:text-gray-200 dark:bg-secondary-dark-bg  w-full md:w-64 lg:w-80    p-4 pt-9 rounded-2xl "
             >
               <button
                 type="button"
