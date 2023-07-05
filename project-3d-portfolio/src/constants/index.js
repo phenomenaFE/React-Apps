@@ -19,7 +19,8 @@ import {
     threejs,
     perfectpresention,
     sass,
-    angular
+    angular,
+    ecommerce
 } from "../assets";
 
 export const navLinks = [
@@ -68,8 +69,8 @@ const technologies = [
     {
         name: "Sass",
         icon: sass
-       
-   },
+
+    },
     {
         name: "JavaScript",
         icon: javascript,
@@ -89,14 +90,14 @@ const technologies = [
     {
         name: "Angular",
         icon: angular
-       
-   },
-   
+
+    },
+
     {
         name: "Tailwind CSS",
         icon: tailwind,
     },
-  
+
     {
         name: "Three JS",
         icon: threejs,
@@ -109,7 +110,7 @@ const technologies = [
 ];
 
 const experiences = [
-   
+
     {
         title: "Frontend Developer",
         company_name: "@Design Agency",
@@ -171,17 +172,17 @@ const testimonials = [
         company: "Emirates Auction",
         image: "https://randomuser.me/api/portraits/women/5.jpg",
     },
-  
+
 ];
 
 const projects = [
     {
-        name: "Waqfy Platform",
+        name: "Psma Platform",
         description:
-            "A safe platform for crowdfunding under the supervision of the General Authority of Endowments.",
+            "A  platform Dashboard for online Survey , and report problem ",
         tags: [
             {
-                name: "angular",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
@@ -189,34 +190,14 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://waqfy.sa/",
+        source_code_link: "https://psmap.netlify.app/user-pages/login",
     },
-    {
-        name: "Perfect Presentation",
-        description:
-            "Company thrive to provide our clients with innovative local products to meet the demands of the latest technology trends.",
-        tags: [
-            {
-                name: "js",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://2p.com.sa/#/",
-    },
+
     {
         name: "Ameen Care",
         description:
@@ -237,6 +218,28 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://www.ameen.care/",
+    },
+    {
+        name: "A Ecommerce",
+        description:
+            "A Ecommerce is a fully responsive and premium Tailwind  Admin & Dashboard Template built in HTML, React js ,Syncfusion",
+        tags: [
+
+            {
+                name: "React",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: ecommerce,
+        source_code_link: "https://64a55100ebcfbd10710b5344--regal-pixie-a9d190.netlify.app/ecommerce",
     },
 ];
 

@@ -34,7 +34,7 @@ import tripguide from "./tripguide.png";
 
 import sass from './tech/sass.png'
 import angular from './tech/angular.png'
-
+import ecommerce from './ecommerce.png'
 export {
   logo,
   backend,
@@ -68,5 +68,6 @@ export {
   webkeyz,
   designagency,
   sass,
-  angular
+  angular,
+  ecommerce
 };
