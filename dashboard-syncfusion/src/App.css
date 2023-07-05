@@ -53,6 +53,6 @@
 .bg-hero-pattern {
   background: white url('../src/data/Asset\ 1.svg') no-repeat;
   background-position-x: -20px;
-  background-position-y: -355px;
+  background-position-y: -225px;
   background-size: cover;
 }
